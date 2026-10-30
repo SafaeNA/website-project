@@ -1,34 +1,46 @@
 <html>
-
-<head>
+  <head>
     <title>Website</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Welcome to Our Website</h1>
-    <html>
-
-    <head>
-        <title>Website</title>
-    </head>
-
-    <body>
-        <h1>Welcome to Our Website</h1>
-    </body>
 
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
+      <ul>
+        <li><a href="#">Home</a></li>
 
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 
-    </html>
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
-</body>
+    <section class="hero">
+      <h1>Welcome to Our Website</h1>
+      <p>
+        Discover our services and learn how we can help you achieve your goals.
+      </p>
+      <a href="#about" class="btn">Learn More</a>
+    </section>
+    
+    <h2>Contact Us</h2>
 
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+    <footer>
+      <p>&copy; 2025 My Website</p>
+    </footer>
+  </body>
 </html>
